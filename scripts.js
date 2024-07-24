@@ -1,3 +1,6 @@
-function showMessage() {
-    alert('Hello, World!');
-}
+// scripts.js
+// Add any interactivity you want here
+
+document.addEventListener('DOMContentLoaded', function() {
+    console.log('Document loaded');
+});

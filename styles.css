@@ -1,6 +1,6 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    font-family: Nunito, semibold;
+    background-color: #fde9ea;
     margin: 0;
     padding: 20px;
 }
@@ -12,7 +12,7 @@ p {
     color: #666;
 }
 button {
-    background-color: #008CBA;
+    background-color: #869f77;
     color: white;
     border: none;
     padding: 10px 20px;

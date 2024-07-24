@@ -3,14 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Simple Website</title>
+    <title>My Personal Blog</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Welcome to My Simple Website</h1>
-    <p>This is a paragraph of text on my website.</p>
-    <button onclick="alert('Hello, World!')">Click Me</button>
+    <header>
+        <h1>Welcome to My Personal Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! Gue Ara, blogger yang suka nulis pengalaman liburan ala-alanya! Di blog ini gue akan spill pengalaman liburan gue se-detail mungkin. Semoga kalian suka yaa~</p>
+    </section>
+
+    <section id="blog">
+        <h2>Recent Posts</h2>
+        <article>
+            <h3>Trip 3 Negara, Kemana Aja dan Habis Berapa?!</h3>
+            <p>Posted on July 24, 2024</p>
+            <p>This is a summary of my first blog post. It covers [brief description of the post].</p>
+            <a href="#">Read more</a>
+        </article>
+
+        <article>
+            <h3>Tarakan, Pulau Kecil Penuh Tempat Wisata</h3>
+            <p>Posted on July 23, 2024</p>
+            <p>This is a summary of my second blog post. It covers [brief description of the post].</p>
+            <a href="#">Read more</a>
+        </article>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>For business inquiries, feel free to contact me through <a href="mailto:namirafwib@gmail.com">namiraf2ib@gmail.com</a>.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 [Namira]. All rights reserved.</p>
+    </footer>
+
     <script src="scripts.js"></script>
 </body>
 </html>
+
 
